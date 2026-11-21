@@ -1,10 +1,6 @@
 # Gravitoa Privacy Policy
 
-Static privacy policy page for the Gravitoa Android app. It is a single `index.html` (inline CSS, no JavaScript, no external dependencies). The empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
-
-## Before you publish
-
-Open `index.html` and replace every `[YOUR_CONTACT_EMAIL]` with your real contact email address (it appears in several places, including the `mailto:` links).
+Static privacy policy site for the Gravitoa Android app: `index.html` (the policy) and `delete-account.html` (account deletion instructions). Both use inline CSS, no JavaScript and no external dependencies. The empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
 ## Publish on GitHub Pages
 
@@ -27,14 +23,14 @@ Open `index.html` and replace every `[YOUR_CONTACT_EMAIL]` with your real contac
 ## Useful links for Google Play
 
 - Privacy policy URL: `https://<github-username>.github.io/gravitoa-privacy/`
-- Account deletion URL (Play Console data safety form): `https://<github-username>.github.io/gravitoa-privacy/#delete-account`
+- Account deletion URL (Play Console data safety form): `https://<github-username>.github.io/gravitoa-privacy/delete-account.html`
 
 ## Updating the policy
 
-Edit `index.html`, update the "Last updated" date (in the header and the footer), then:
+Edit `index.html` and/or `delete-account.html`, update the "Last updated" date (in the header and the footer of each page), then:
 
 ```bash
-git add index.html
+git add index.html delete-account.html
 git commit -m "Update privacy policy"
 git push
 ```
